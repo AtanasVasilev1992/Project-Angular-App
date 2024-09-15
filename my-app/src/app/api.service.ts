@@ -9,5 +9,5 @@ export class ApiService {
 
   getThemes() {}
 
-  getPosts() {}
+  getPosts(limit?: number) {}
 }
