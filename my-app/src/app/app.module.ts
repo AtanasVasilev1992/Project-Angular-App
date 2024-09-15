@@ -7,9 +7,11 @@ import { CoreModule } from './core/core.module';
 import { SharedModule } from './shared/shared.module';
 import { MainComponent } from './main/main.component';
 import { HttpClientModule } from '@angular/common/http';
+import { ThemesComponent } from './themes/themes.component';
+import { PostsComponent } from './posts/posts.component';
 
 @NgModule({
-  declarations: [AppComponent, MainComponent],
+  declarations: [AppComponent, MainComponent, ThemesComponent, PostsComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
